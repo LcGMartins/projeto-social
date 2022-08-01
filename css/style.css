@@ -36,3 +36,23 @@ main {
     width: 267px;
     height: 471px;
 }
+
+.redes {
+    text-align: right;
+}
+
+.redes img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px #00000070;
+    
+}
+
+.redes img:hover {
+    border: 2px solid #ffffff7e;
+    transform: translate(-2px, -2px);
+    transition: transform .3s, border .5s;
+    box-shadow: 5px 5px 10px #00000070;
+}
